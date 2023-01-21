@@ -1,0 +1,18 @@
+.selectWrapper {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #ededed;
+}
+
+.selectWrapper,
+.selectWrapper select {
+    font-family: 'Lora';
+    color: #573280;
+    font-size: 20px;
+    background-color: #ededed;
+}
+
+.selectText {
+    margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+.inputWrapper {
+    position: relative;
+    border: 2px solid #151613;
+    flex: 1 0 100%;
+}
+
+.input {
+    font-family: 'Lora';
+    padding: 16px 16px 16px 60px;
+    border: none;
+    background: rgba(0, 0, 0, 0.003);
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.fa-search {
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.input::-webkit-input-placeholder {
+    font-family: 'Lora';
+    color: #573280;
+}
+
+.input::-moz-placeholder {
+    font-family: 'Lora';
+}
+
+.input:-ms-input-placeholder {
+    font-family: 'Lora';
+}
